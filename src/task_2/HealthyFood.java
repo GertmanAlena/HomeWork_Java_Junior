@@ -1,2 +1,8 @@
-package task_2;public interface HealthyFood {
+package task_2;
+
+/**
+ * Здоровая еда
+ */
+
+public interface HealthyFood extends Food{
 }

@@ -1,2 +1,9 @@
-package task_2;public interface SemiFinishedFood {
+package task_2;
+
+/**
+ * Полуфабрикат
+ */
+public interface SemiFinishedFood extends Food{
+
 }
+

@@ -1,2 +1,13 @@
-package task_2;public interface Thing {
+package task_2;
+
+/**
+ * Товар
+ */
+public interface Thing {
+
+    /**
+     * Получить наименование товара
+     */
+    String getName();
+
 }

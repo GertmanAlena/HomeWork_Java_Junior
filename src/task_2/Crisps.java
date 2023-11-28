@@ -1,2 +1,27 @@
-package task_2;public class Crisps {
+package task_2;
+
+/**
+ * Чипсы
+ */
+
+public class Crisps implements Snack{
+    @Override
+    public boolean getProteins() {
+        return false;
+    }
+
+    @Override
+    public boolean getFats() {
+        return false;
+    }
+
+    @Override
+    public boolean getCarbohydrates() {
+        return false;
+    }
+
+    @Override
+    public String getName() {
+        return "Чипсы";
+    }
 }

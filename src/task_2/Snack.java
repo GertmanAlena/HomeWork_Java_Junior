@@ -1,2 +1,7 @@
-package task_2;public interface Snack {
+package task_2;
+
+/**
+ * Снек (легкая закуска)
+ */
+public interface Snack extends Food{
 }
